@@ -2,6 +2,7 @@ import "./assets/css/style.css";
 import Education from "./components/education";
 import Header from "./components/header";
 import Profile from "./components/profile";
+import Skills from "./components/skills";
 
 const App = () => {
   return (
@@ -10,22 +11,7 @@ const App = () => {
       <div id="mainArea" className="quickFade delayFive">
         <Profile />
         <Education />
-        <section>
-          <div className="sectionTitle">
-            <h1>Key Skills</h1>
-          </div>
-          <div className="sectionContent">
-            <ul className="keySkills">
-              <li>Python </li>
-              <li>C/C++</li>
-              <li>JS</li>
-              <li>C#</li>
-              <li>React/React JS</li>
-              <li>HTML/CSS</li>
-            </ul>
-          </div>
-          <div className="clear" />
-        </section>
+        <Skills />
         <section>
           <div className="sectionTitle">
             <h1>Certifications</h1>
