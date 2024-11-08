@@ -1,3 +1,5 @@
+import Certificate from "../certificate";
+
 const Certification = () => {
   return (
     <section>
@@ -5,23 +7,15 @@ const Certification = () => {
         <h1>Certifications</h1>
       </div>
       <div className="sectionContent">
-        <article>
-          <h1>HackerRank JavaScript Basic</h1>
-          <img
-            src="../../../javascript_basic certificate.png"
-            className="certificate"
-            alt=""
-          />
-        </article>
+        <Certificate
+          title="HackerRank JavaScript Basic"
+          src="../../../javascript_basic certificate.png"
+        />
         <br />
-        <article>
-          <h1>Kaggle Pandas certificate</h1>
-          <img
-            src="../../../Pandas certificate.png"
-            className="certificate"
-            alt=""
-          />
-        </article>
+        <Certificate
+          title="Kaggle Pandas Certificate"
+          src="../../../Pandas certificate.png"
+        />
       </div>
       <div className="clear" />
     </section>
