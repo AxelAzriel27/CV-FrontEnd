@@ -6,15 +6,21 @@ const Certification = () => {
       </div>
       <div className="sectionContent">
         <article>
-          <h2>Job Title at Company</h2>
-          <p className="subDetails">April 2011 - Present</p>
-          <img src="../IMG_11701.png" className="certificate" alt="" />
+          <h1>HackerRank JavaScript Basic</h1>
+          <img
+            src="../../../javascript_basic certificate.png"
+            className="certificate"
+            alt=""
+          />
         </article>
         <br />
         <article>
-          <h2>Job Title at Company</h2>
-          <p className="subDetails">Janruary 2007 - March 2011</p>
-          <img src="../IMG_11701.png" className="certificate" alt="" />
+          <h1>Kaggle Pandas certificate</h1>
+          <img
+            src="../../../Pandas certificate.png"
+            className="certificate"
+            alt=""
+          />
         </article>
       </div>
       <div className="clear" />
