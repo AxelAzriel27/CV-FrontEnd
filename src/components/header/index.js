@@ -2,11 +2,11 @@ const Header = () => {
   return (
     <div className="mainDetails">
       <div id="headshot" className="quickFade">
-        <img src="../IMG_11701.png" alt="Alan Smith" />
+        <img src="../IMG_11701.png" alt="" />
       </div>
       <div id="name">
         <h1 className="quickFade delayTwo">Axel Kopalit</h1>
-        <h2 className="quickFade delayThree">Informatika</h2>
+        <h3 className="quickFade delayThree">Manado, 27 Mei 2004</h3>
       </div>
       <div id="contactDetails" className="quickFade delayFour">
         <ul>
@@ -27,9 +27,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            FB:{" "}
+            GitHub:{" "}
             <a
-              href="https://www.facebook.com/axel.kopalit.27?locale=id_ID"
+              href="https://github.com/AxelAzriel27"
               target="_blank"
               rel="noreferrer"
             >
