@@ -6,7 +6,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 const override: CSSProperties = {
   display: "block",
   margin: "0 auto",
-  borderColor: "#ffffff",
+  borderColor: "#000000",
 };
 
 const Certification = () => {
