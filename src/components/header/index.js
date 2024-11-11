@@ -6,7 +6,7 @@ const Header = () => {
       </div>
       <div id="name">
         <h1 className="quickFade delayTwo">Axel Kopalit</h1>
-        <h2 className="quickFade delayThree">Informatika</h2>
+        <h3 className="quickFade delayThree">Manado, 27 Mei 2004</h3>
       </div>
       <div id="contactDetails" className="quickFade delayFour">
         <ul>
